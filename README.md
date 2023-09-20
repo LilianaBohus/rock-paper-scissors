@@ -36,13 +36,6 @@ Vegyél fel bele egy `@GetMapping("/")` annotációval ellátott metódust, ami 
 Készítsd el ezt a `.html` fájlt, ami kiír egy üdvözlőszöveget,
 konvenció szerint tedd a `resources/templates` mappába!
 
-Az `application.properties`-be vedd fel az alábbi két sort:
-
-```
-spring.thymeleaf.prefix=classpath:/templates/
-spring.thymeleaf.suffix=.html
-```
-
 Teszteld le, hogy (az appilikáció futása közben) a `localhost:8080/`-t megnyitva megjelnik a főoldal!
 
 ## GameService
