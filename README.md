@@ -71,7 +71,10 @@ definiáltak mellé.
 Ugrjunk vissza a `controller` package-be!
 
 ## Play endpoint
+_Tipp: ezt a részt ne bonyolítsd túl!_
+
 Vegyél fel a `GameController` osztályban a játék lebonyolításáért felelős metódus(ok)at!
+
 Ehhez szükség lesz a service osztály(ok) beinjektálására!
 
 ```
@@ -87,12 +90,17 @@ public GameController(
 
 Készítsd el hozzá a `.html` fájlokat!
 
+**Gyakorlatilag el is készültél, jó játékot! :)**
+
 # Haladó feladatok
 
 Ha kész vagy, szépítheted a kódodat, pl. ezekkel:
 
+## Kő-papír-olló-gyík-Spock
+Igazán kockáknak: https://agymenok.com/ko-papir-ollo-gyik-spock-jatekszabaly/
+
 ## Frontend
-Bootstrapet neki!
+Bootstrapet neki! Ha igazán bevállalós vagy, képeket is tegyél bele, hogy azokkal lehessen választani!
 
 ## Új logika implementáció
 Készíts egy új osztályt, ami a `GameLogic` interfészt valósítja meg:
@@ -104,3 +112,4 @@ public class ExtraGameService extends GameService {
 Ennek a mintájára írd át a meglévő service-t is! (Az annotáció után adj neki nevet.)
 Honnan fogja most tudni a Spring, hogy a controllerbe melyiket injektálja be?
 Nézz utána a `@Qualifier`-nek és használd!
+
